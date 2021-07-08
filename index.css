@@ -22,12 +22,18 @@ nav {
 nav a {
     text-align: center;
     overflow: hidden;
-    display: inline;
-    margin: 5%;
+    display: inline-block;
+    word-wrap: normal;
+    color:white;
+
+    height:50%;
+    /* margin: 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
     text-decoration: none;
     letter-spacing: 5px;
-    border-radius: 30%;
-
+    border-radius: 15%;
+    padding-top: 2%;
 }
 
 nav a:first-child{
@@ -43,21 +49,31 @@ nav a:last-child{
     background-color: #FFCD69;
 }
 
-header{
-    
-}
 .container_1{
     display:inline-block;
-    padding:0;
-    margin-left: 50rem;
-    margin-bottom: 50rem;
-    margin:0;
+    width: 100%;
+}
+
+.container_1 h1{
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+}
+
+.container_1 p{
+    padding-top:0.7em;
+    padding-bottom:0.7em;
+    margin-left: 20em;
+    margin-right: 20em;
+    text-align: center;
 }
 
 .container_2{
-    margin: 3rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 3rem;
+    margin-right:15rem;
+    padding: 1%;
     width: 80%;
     color:white;
     background-color: #c19f3e;
@@ -70,10 +86,13 @@ header{
 }
 
 #img_1{
-    width: 15rem;
-    height: 15rem;
+    margin-left: 5em;
+    border:10px dotted red;
+    width:10em;
+    height:10em;
     border-radius:50%;
     display:inline-block;
+    float: left;
 }
 
 #img_2, #img_3{
